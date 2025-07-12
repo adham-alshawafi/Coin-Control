@@ -1,0 +1,25 @@
+# Netlify headers file for proper MIME types
+# This ensures JavaScript modules are served with correct Content-Type
+
+# JavaScript files
+/*.js
+  Content-Type: application/javascript; charset=utf-8
+
+# ES Modules
+/*.mjs
+  Content-Type: application/javascript; charset=utf-8
+
+# CSS files
+/*.css
+  Content-Type: text/css; charset=utf-8
+
+# Assets folder
+/assets/*.js
+  Content-Type: application/javascript; charset=utf-8
+
+/assets/*.css
+  Content-Type: text/css; charset=utf-8
+
+# TypeScript files (if any are served)
+/*.ts
+  Content-Type: application/javascript; charset=utf-8
